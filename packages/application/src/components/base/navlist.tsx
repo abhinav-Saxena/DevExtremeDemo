@@ -1,6 +1,7 @@
 import React from 'react';
 import List from 'devextreme-react/list.js';
 import Drawer from 'devextreme-react/drawer';
+import '../../styles/navlist.scss';
 
 
 const navigation = [
