@@ -4,7 +4,7 @@
         justify-content: flex-start;
         border-bottom: 1px solid #f7f7ff;
         background-color: #fff;
-        color: #fff;
+        color: #fff; 
         align-items: center;
 }
 
@@ -20,4 +20,18 @@
 
 .select-box-header {
         border: none; 
+}
+
+.dx-toolbar {
+        background-color: white !important; 
+} 
+
+.dx-dropdowneditor-icon:before {
+        content: '\f016';
+        top: 58%;
+}
+
+.dx-texteditor.dx-editor-outlined {
+        // border: none;
+        width: 70px;
 }

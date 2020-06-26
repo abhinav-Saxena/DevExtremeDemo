@@ -15,7 +15,7 @@ const navigation = [
 
 const NavigationList = () => {
   return (
-    <div className="list" style={{ width: '230px'}}>
+    <div className="list" >
       <List
         dataSource={navigation}
         hoverStateEnabled={true}
@@ -39,6 +39,7 @@ export const SideBar: React.FC<LayoutProps> = (props): JSX.Element => {
       component={NavigationList}
       height={"100%"}
       opened={props.opened}
+      style ={{hoverStateEnabled:true}}
     >
       <div id='content'>
         {props.children}

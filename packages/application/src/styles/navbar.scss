@@ -43,7 +43,7 @@
 
 .panel-list .dx-list-item {
     color: black;
-    border-top: 1px solid rgba(221, 221, 221, .2);
+    border-top: 0px solid rgba(221, 221, 221, .2);
 }
 
 .panel-list .dx-list-item .dx-icon {
@@ -78,6 +78,10 @@ label {
     font-size: 26px;
 }
 
+.dx-item .dx-box-item {
+    flex: 3 1 0px;
+}
+
 
 @media only screen and (max-width: 768px) {
     .dx-scrollable-content {
@@ -87,4 +91,12 @@ label {
     .dx-toolbar {
         padding: 0px;
     }
+
+    
   }
+
+//   @media only screen and (min-device-width: 320px) and (max-device-width: 676px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+//     .dx-item .dx-box-item {
+//         flex: 1 1 0px;
+//     }
+// }
