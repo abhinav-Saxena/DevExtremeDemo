@@ -39,7 +39,6 @@ export const SideBar: React.FC<LayoutProps> = (props): JSX.Element => {
       component={NavigationList}
       height={"100%"}
       opened={props.opened}
-      style ={{hoverStateEnabled:true}}
     >
       <div id='content'>
         {props.children}

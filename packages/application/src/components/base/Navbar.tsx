@@ -1,6 +1,5 @@
 import React from "react";
 import {Toolbar  } from 'devextreme-react';
-// import {SideBar} from './navlist'
 
 interface NavBarComponentProps{
      opened:boolean,
